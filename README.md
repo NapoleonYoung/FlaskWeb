@@ -15,3 +15,4 @@
             数据库前移：Flak-Migrate
             用户认证：Flask-Login
             
+版本说明：v1.02 增加了.gitignore文件，以忽略.pyc等文件
