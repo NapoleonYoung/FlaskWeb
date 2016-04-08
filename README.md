@@ -6,7 +6,9 @@
 
 结构：大型程序的结构：配置选项，程序包，启动脚本，需求文件，单元测试等
 
-目前已完成：模版Flask-Bootstrap
+目前已完成：
+
+            模版Flask-Bootstrap
             Web表单：Flask-WTF
             数据库：Flask-SQLALchemy
             集成Python shell：Flask-Script
