@@ -9,6 +9,12 @@ basedir = os.path.abspath(os.path.dirname(__file__))    #文件路径
 
 class Config:   #基类Config,包含通用配置，在下面的子类Config中分别定义专用的配置
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
+    MAIL_SERVER = 'smtp.qq.com'
+    MAIL_PORT = 465
+    MAIL_USE_SSL = True
+    MAIL_USERNAME = '906469826@qq.com'
+    MAIL_PASSWORD = 'okgrvzyhmimubfaa' #此处应该为所用邮箱的授权码，去设置／开启POP3/SMTP服务
+    FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
 
     @staticmethod
     def init_app(app):
