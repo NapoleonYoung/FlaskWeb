@@ -14,5 +14,8 @@
             集成Python shell：Flask-Script
             数据库前移：Flak-Migrate
             用户认证：Flask-Login
+            新用户注册
             
-版本说明：v1.02 增加了.gitignore文件，以忽略.pyc等文件
+版本说明：
+        v1.03 新用户注册，发送验证邮件，点击邮件中的链接，验证成功
+        v1.02 增加了.gitignore文件，以忽略.pyc等文件
