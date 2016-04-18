@@ -12,9 +12,11 @@ class Config:   #基类Config,包含通用配置，在下面的子类Config中�
     MAIL_SERVER = 'smtp.qq.com'
     MAIL_PORT = 465
     MAIL_USE_SSL = True
-    MAIL_USERNAME = 'XXX@qq.com' #设置为发送邮箱
+    MAIL_USERNAME = 'XXXX@qq.com'  #上传github前将邮箱名去掉
     MAIL_PASSWORD = 'okgrvzyhmimubfaa' #此处应该为所用邮箱的授权码，去设置／开启POP3/SMTP服务
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
+
+    SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     @staticmethod
     def init_app(app):
